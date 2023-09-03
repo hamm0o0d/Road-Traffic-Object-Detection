@@ -5,7 +5,7 @@ import tempfile
 from PIL import Image, ImageDraw, ImageFont
 from ultralytics import YOLO
 from PIL import Image
-
+import cv2
 themodel = YOLO('best wieghts_100 epoch.pt')
 
 
@@ -52,7 +52,6 @@ def object_detection(image_data):
     os.remove(temp_image_path)
 
     return
-
 
 sl.title("Road Traffic Object Detection Project using YOLOv8")
 sl.text("team members : Ahmed Hany, Ahmed Esmat and Ismail Sherif")
