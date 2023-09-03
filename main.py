@@ -1,17 +1,9 @@
-import cv2
 import streamlit as sl
-import pandas as pd
-import joblib
 import os
 import matplotlib.pyplot as plt
-import matplotlib.patches as patches
 import tempfile
-import tensorflow as tf
-import numpy as np
 from PIL import Image, ImageDraw, ImageFont
-import io
 from ultralytics import YOLO
-import urllib.request
 from PIL import Image
 
 
