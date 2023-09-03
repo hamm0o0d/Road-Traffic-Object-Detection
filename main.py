@@ -23,10 +23,6 @@ def object_detection(image_data):
     # Create a drawing context
     draw = ImageDraw.Draw(image)
 
-    # Define the detected objects with their bounding box coordinates, class labels, and confidences
-    # Each object is represented as (x, y, width, height, label, confidence)
-    # Replace these with the actual information about detected objects
-
     # Draw bounding boxes and labels on the image
     for xyxy, conf, cls in zip(theresults[0].boxes.xyxy.cpu().numpy(), theresults[0].boxes.conf.cpu().numpy(),
                                theresults[0].boxes.cls.cpu().numpy()):
