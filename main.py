@@ -77,19 +77,3 @@ if uploaded_image is not None:
 
     sl.image(my_image, caption="Uploaded Image", use_column_width=True)
 
-#
-# image_url = 'https://media.roboflow.com/notebooks/examples/dog.jpeg'
-#
-# # Fetch the image using urllib
-# with urllib.request.urlopen(image_url) as response:
-#     image_data = response.read()
-#
-#
-# if image_data:
-#     object_detection(image_data)
-#
-# print (5)
-# # Load your image
-
-# Save the current plt image
-print(7)
