@@ -44,7 +44,7 @@ def object_detection(image_data):
     plt.imshow(image)
     plt.axis('off')  # Turn off axis labels
 
-    plt.savefig(f'C:/Users/ahmed/PycharmProjects/Object Detection/image.jpg', bbox_inches='tight', pad_inches=0.1)
+    plt.savefig('image.jpg', bbox_inches='tight', pad_inches=0.1)
 
     # Show the image
     plt.show()
